@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="search.html">Пошук Google</a></li>
+        <li><a href="image-search.html">Пошук зображень Google</a></li>
+        <li><a href="advanced-search.html">Розширений пошук Google</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="https://www.google.com/search">
+      <label for="all-words">Знайти сторінки із «усіма цими словами»:</label>
+      <input type="text" id="all-words" name="as_q" required>
+      <br>
+      <label for="exact-phrase">Знайти сторінки з «саме цим словом або фразою»:</label>
+      <input type="text" id="exact-phrase" name="as_epq" required>
+      <br>
+      <label for="any-words">Знайти сторінки з «будь-яким із цих слів»:</label>
+      <input type="text" id="any-words" name="as_oq" required>
+      <br>
+      <label for="none-words">Знайти сторінки з «жодне з цих слів»:</label>
+      <input type="text" id="none-words" name="as_eq" required>
+      <br>
+      <button type="submit">Розширений пошук</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Website</p>
+  </footer>
+</body>
+</
